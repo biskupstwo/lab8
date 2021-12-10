@@ -1,0 +1,3 @@
+let request = new XMLHttpRequest();
+request.open('GET','https://api.sendsms.wizut/api/v1/send?api_key={klucz}&to={505123456}&message={tutaj+wiadomość}',true);
+request.send();
